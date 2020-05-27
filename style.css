@@ -173,26 +173,25 @@
     .wildlife {
         background: var(--bg-secondary) url(../Website/images/maxresdefault.jpg);
         background-size: cover;
-        box-shadow: insert 0 0 50px 10 px var(--bg-primary);
         border-top: 10px solid red;
         border-radius: 5px;
         padding: 18% 24%;
-        margin: 105px 0 60px;
+        margin: 105px 0 10px;
         color: white;
+        text-align: left;
         text-shadow: 2px 2px 5px red, 0 0 5px #000000;
         
     }
-    
+
     .callout {
-        font-size: 1.25em;
-        /* padding: 0 9px 3px; */
-        text-align: center;
-        display: inline-block;
-        
-      }
+      margin-top: 0px;
+      padding-bottom: 2em;
+      text-align: center;
+    }
     
     .Vallaki {
         max-width: 100%;
+        border-radius: 5px;
     }
 
     .main-footer {
