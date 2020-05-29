@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", function(){});
+
 const themeMap = {
     dark: "light",
     light: "solar",
