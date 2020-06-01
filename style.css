@@ -40,6 +40,7 @@
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: hidden;
+    z-index: 1;
   }
   
   .navbar-nav {
@@ -171,16 +172,25 @@
     }
 
     .wildlife {
-        background: var(--bg-secondary) url(../images/maxresdefault.jpg);
-        background-size: cover;
-        border-top: 10px solid red;
-        border-radius: 5px;
-        padding: 18% 24%;
-        margin: 105px 0 10px;
-        color: white;
-        text-align: left;
-        text-shadow: 2px 2px 5px red, 0 0 5px #000000;
+      position: relative;
+      text-shadow: 2px 2px 5px red, 0 0 5px #000000;
         
+    }
+    .werewolf {
+      width: 100%;
+      max-width: 1235px;
+      border-radius: 5px;
+      z-index: -1;
+  }
+
+    .wolf {
+      position: absolute;
+      width: 50%;
+      top: 20px;
+      left: 20px;
+      color: white;
+
+
     }
 
     .callout {
@@ -199,7 +209,24 @@
         border-bottom: 10px solid black;
     }
 
+.sorry {
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+  color: #FFFFFF;
 
+}
+
+.pika {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:50%;
+}
+
+.construction {
+  background-color: var(--bg-primary);
+}
 
 /* Small screens -------------------- */
   @media only screen and (max-width: 600px) {
