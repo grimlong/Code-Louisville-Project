@@ -137,7 +137,7 @@
     }
 
     h1 {
-        font-size: 5.625rem;
+        font-size: 5rem;
         text-transform: uppercase;
         font-weight: normal;
         line-height: 1.3;
@@ -148,7 +148,7 @@
     .main-header {
         padding-top: 170px;
         padding-left: 5rem;
-        height: 850px;
+        height: 53em;
         background: linear-gradient(#fff, transparent 90%),
                     linear-gradient(0deg,#fff, transparent 90%),
                     url(../images/map.png) no-repeat center;
@@ -205,9 +205,11 @@
     }
 
     .main-footer {
-        padding: 20px 0;
+        padding: 1em 0;
         border-bottom: 10px solid black;
     }
+
+      /* Under Construction page -------------------- */
 
 .sorry {
   text-align: center;
@@ -254,13 +256,19 @@
 
     .main-header{
         padding-left: 0;
+        padding-top: 4em;
+        height: 20em;
     }
 
     .main-footer {
         padding-bottom: 5rem;
     }
+    h1 {
+      font-size: 2em;
   }
-  
+    
+
+  }
   
  /* Large screens -------------------- */
   @media only screen and (min-width: 600px) {
