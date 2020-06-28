@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="rollstats.css"></link>
     <title>Character Generator </title>
+    <script>
+      var dicesound = new Audio();
+      dicesound.src = "Dice_sound.mp3";
+    </script>
 </head>
+
   <div id="top" class="header">
     <h1>Character Stats Generator </h1>
   </div>
@@ -15,22 +20,22 @@
     <div id="stats" class="diceContainer">
        <div class="diceArea">
            <ul>
-            <button onclick="rollStr()">Strength</button>
+            <button onmousedown="dicesound.play()" onclick="rollAttribute('str')">Strength</button>
             <li id="str"></li>  
         
-            <button onclick="rollDex()">Dexterity</button>
+            <button onmousedown="dicesound.play()" onclick="rollAttribute('dex')">Dexterity</button>
             <il id="dex"></il >  
      
-             <button onclick="rollCon()">Constitution</button>
+             <button onmousedown="dicesound.play()" onclick="rollAttribute('con')">Constitution</button>
              <il  id="con"></il >  
        
-            <button onclick="rollInt()">Intelligence</button>
+            <button onmousedown="dicesound.play()" onclick="rollAttribute('int')">Intelligence</button>
              <il  id="int"></il >  
         
-             <button onclick="rollWis()">Wisdom</button>
+             <button onmousedown="dicesound.play()" onclick="rollAttribute('wis')">Wisdom</button>
             <il  id="wis"></il >  
      
-             <button onclick="rollCha()">Charisma</button>
+             <button onmousedown="dicesound.play()" onclick="rollAttribute('cha')">Charisma</button>
              <il  id="cha"></il >  
           </ul>
       </div>   
@@ -40,6 +45,6 @@
       
 
 
-<script src="/diceroller.js"></script>
+<script src="/rollstats.js"></script>
 </body>
 </html>
