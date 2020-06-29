@@ -14,7 +14,7 @@ Generator.
 
  I spent way too much time on the Stat Generator. It started out as a function that pushed 3 random numbers made with Math.random into an array, then added them together and
  used document.write to print them to the page with less than desirable results. This was over 100 lines of code because it was around 20 lines repeated 6 times, one for each 
- stat.
+ stat. I used a for loop to shorten it but printing to the page was still not working for me.
 
 The second iteration used getElementById to display the number. This shortened the code to around 25 lines. I brought this to class to show them my journey as it lined up with
 what we watched in Treehouse that week. My mentor informed me that I could shorten my code even further if I pushed a variable to my function from my HTML.
