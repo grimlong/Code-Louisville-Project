@@ -23,4 +23,4 @@ This knocked it down to just 5 lines.
 The CSS on the dice page I did after reading a UX article on darkmode. It has flexboxes to adjust the layout of the content and only allows it to display in two formations 
 using media queries to restrict it. I had to put flexboxes inside my flexboxes to get the numbers to center nicely.
 
-I used the Live Server extension for VS code when I was writing it so please use that to view the page.
+I used the Live Server extension for VS code when I was writing it but, I think it should just work when you click the HTML file.
