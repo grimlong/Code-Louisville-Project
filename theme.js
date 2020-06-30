@@ -1,3 +1,5 @@
+// cycles the theme onclick 
+
 const themeMap = {
     dark: "light",
     light: "solar",
