@@ -128,7 +128,7 @@ main {
   transform: rotate(-180deg);
   }
 
-/* Stlyes -------------------- */
+/* top of page -------------------- */
 
 .intro {
   font-size: 1.23em;
@@ -165,20 +165,26 @@ p {
   color: var(--text-primary);
 }
 
+span:nth-of-type(2n) {
+  color: var(--text-secondary);
+  
+}
+
+/* first section -------------------- */
+
 main-content {
 display: flex;
 flex-wrap: wrap;
 flex-flow: row;
 justify-content: space-evenly;
 margin-bottom: 3em;
-
-
 }
 
 .artical-1 {
   padding: 2em;
   background: var(--bg-primary);
   border: solid 2px var(--text-primary);
+  
 }
 
 .artical-2 {
@@ -187,6 +193,9 @@ margin-bottom: 3em;
   border: solid 2px var(--text-primary);
   
 }
+
+/* secound section -------------------- */
+
 secoundary-content,
 .main-header,
 .main-footer {
@@ -215,18 +224,20 @@ img {
 .vallaki {
   width: 90%;
   }
-
-.cities {
-  color: var(--text-primary);
+  
+  .cities {
+    color: var(--text-primary);
   }
-
-.callout {
-  margin-top: 0px;
-  padding-bottom: 2em;
-  text-align: center;
-  color: var(--text-primary);
+  
+  .callout {
+    margin-top: 0px;
+    padding-bottom: 2em;
+    text-align: center;
+    color: var(--text-primary);
   }
- 
+  
+  /* bottom of page -------------------- */
+
 h3 {
   text-align: center;
   border-top: solid 2px var(--bg-primary);
@@ -239,6 +250,7 @@ h3 {
   padding: 1em 0;
   border-bottom: 8px solid var(--bg-primary);
   }
+
 
 a:link {
   color: var(--text-primary);

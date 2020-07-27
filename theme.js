@@ -1,11 +1,12 @@
-// cycles the theme onclick 
+//places dark theme into local storage for reference, toggles to next theme in the list and replaces the text in
+// local storage.
 
 const themeMap = {
     dark: "light",
     light: "solar",
     solar: "dark"
   };
-  
+ 
   const theme = localStorage.getItem('theme')
     || (tmp = Object.keys(themeMap)[0],
         localStorage.setItem('theme', tmp),

@@ -22,6 +22,8 @@
     background: #102a43;
 }
 
+/* Stat boxes */
+
 #str,#dex,#con,
 #int,#wis,#cha {
     height: 1.25em;
