@@ -161,6 +161,8 @@ h1 {
   padding-bottom: 5.9375rem;
 }
 
+/* first section -------------------- */
+
 p {
   color: var(--text-primary);
 }
@@ -170,7 +172,6 @@ span:nth-of-type(2n) {
   
 }
 
-/* first section -------------------- */
 
 main-content {
 display: flex;
